@@ -31,7 +31,9 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/jibo_logo.jpg">
+
+  <!-- (1) Changed favicon to shrec_logo.png -->
+  <link rel="icon" href="./static/images/shrec_logo.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -49,8 +51,9 @@
         margin-bottom: 20px; /* Add some space below the combined title block */
     }
 
+    /* (3) Increased logo size */
     .shrec-logo {
-        height: 50px; /* Adjust height as needed */
+        height: 80px; /* Adjusted height for a larger logo */
         margin-right: 15px; /* Add space between the logo and the title text */
         flex-shrink: 0; /* Prevent the logo from shrinking */
     }
@@ -84,8 +87,10 @@
         <div class="column has-text-centered">
           <!-- Start of Title and Logo container -->
           <div class="title-container">
+            <!-- (2) Placed logo before title H1 -->
             <img src="./static/images/shrec_logo.png" alt="SHREC Logo" class="shrec-logo">
-            <h1 class="title is-1 publication-title">Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning</h1>
+            <!-- (4) Decreased title font size (Bulma class is-1 -> is-2) -->
+            <h1 class="title is-2 publication-title">Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning</h1>
           </div>
           <!-- End of Title and Logo container -->
 
@@ -112,7 +117,7 @@
 	      <a href="https://www.media.mit.edu/people/cynthiab/overview/">Cynthia Breazeal</a><sup>1</sup>,
 	    </span>
 	    <span class="author-block">
-	      <a href="https://www.media.mit.edu/people/haewon/overview/">Hae Won Park</a><sup>1</sup>
+	      <a href="https://www.media.mit.com/people/haewon/overview/">Hae Won Park</a><sup>1</sup>
 	    </span>
             </div>
           <div class="is-size-5 publication-authors">
@@ -259,7 +264,7 @@
   journal={arXiv preprint arXiv:2504.13898},
   year={2025}
 }
-}</code></pre>
+</code></pre>
 	</div>
 </section>
 
