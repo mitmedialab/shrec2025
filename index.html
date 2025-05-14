@@ -1,0 +1,244 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Human Robot Social Interaction (HSRI) Dataset & Benchmark">
+  <meta name="keywords" content="Health-LLM, Wearable Sensors, Personal Health Coach">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Robot Social Interaction (HSRI) Datasets & Benchmark</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/jibo_logo.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Human Robot Social Interaction (HSRI) Dataset & Benchmark</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://dongwonl.com/">Dong Won Lee</a><sup>1</sup>,</span>
+            </span>
+	    <span class="author-block">
+              <a href="https://ybkim95.github.io/">Yubin Kim</a><sup>1</sup>,
+            </span>
+	    <span class="author-block">
+              <a href="https://www.linkedin.com/in/denison-guvenoz/">Denison Guvenoz</a><sup>2</sup>,
+            </span>
+	    <span class="author-block">
+              <a href="https://www.sooyeonjeong.com/">Sooyeon Jeong</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.media.mit.edu/people/pmalacho/overview/">Parker Malachowsky</a><sup>1</sup>,
+            </span>
+	    <span class="author-block">
+	      <a href="https://www.cs.cmu.edu/~morency/">Louis-Philippe Morency</a><sup>3</sup>,
+	    </span>
+	    <span class="author-block">
+	      <a href="https://www.media.mit.edu/people/cynthiab/overview/">Cynthia Breazeal</a><sup>1</sup>,
+	    </span>
+	    <span class="author-block">
+	      <a href="https://www.media.mit.edu/people/haewon/overview/">Hae Won Park</a><sup>1</sup>
+	    </span>
+            </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>MIT</span><br>
+            <span class="author-block"><sup>2</sup>Purdue</span><br>
+            <span class="author-block"><sup>3</sup>CMU</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2504.13898"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+<!--               <span class="link-block">
+                <a href="https://arxiv.org/pdf/2405.15708"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!--video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/mainfigure.png" type="picture">
+      </video-->
+      <img src="./static/images/hsri_teaser.png" width="60%" alt="Main Figure AgentClinic">
+      <!-- <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Health-LLM</span> is a framework for evaluating LLM performance on a diverse set of health prediction tasks, training and prompting the models with multi-modal health data.
+      </h2> -->
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          	Our work aims to advance the socially intelligent behavior of social embodied artificial intelligence (AI) agents in real-world social interactions. Recently, foundational models are being utilized as automatic evaluators of social interactions. To enable further research in this direction, we introduce a large-scale real-world Human Robot Social Interaction (HSRI) Dataset to benchmark the capabilities of Language Models (LMs) and multimodal foundational models to identify and reason about social errors and competencies in real-world human-robot interactions. Our dataset consists of 440 real-world human social robot interaction videos, and is accompanied by over 10K annotations, detailing the robot’s social errors, competencies, rationale, and corrective actions, capturing unique aspects of human-AI interaction only present in real-world interactions, with annotations on error cases where embodied physical AI agents lack human-like social behaviors such as conversational dynamics and emotion recognition, which are often overlooked and difficult to formulate as machine learning tasks without real-world data. Then, to further assess whether recent AI models can identify and reason through such real-world social interactions, we propose eight new benchmark tasks for evaluating AI model’s ability to reason about social interactions, including detecting errors and competencies, rationalizing, and inferringcorrective actions. Human studies and experiments with modern large language models (LLMs) and vision-language models (VLMs) reveal that current models struggle with these tasks.  
+	  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Dataset Characteristics</h2>
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <figure class="image">
+          <img src="./static/images/hsri_stat.png" alt="Figure 2: Overall characteristics of the SRI Dataset.">
+          <figcaption class="has-text-centered"><b>Figure 2</b>: Overall characteristics of the SRI Dataset. Our dataset contains high overlapping annotations with a high level of agreement among annotators regarding error and competency labels. The dataset includes more annotations from the verbal channel compared to the non-verbal one, with a balanced proportion of error and competency labels. Amongst various social attributes, with the majority of annotations falling under the category of conversational mechanics, followed by intention and engagement.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Benchmark Tasks</h2>
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <figure class="image">
+          <img src="./static/images/hsri_task.png" alt="Figure 3: Our benchmark offers 8 tasks dedicated to probing various facets of AI model's social reasoning.">
+          <figcaption class="has-text-centered"><b>Figure 3</b>: Our benchmark offers 8 tasks dedicated to probing various facets of AI model’s social reasoning with regards to detecting social errors and competencies, identifying social attributes, understanding the progression of social interactions, and rationalization and correction of social errors.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Benchmark Results</h2>
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <figure class="image">
+          <img src="./static/images/hsri_exp.png" alt="Figure 4: Results per model across all 8 tasks, human performance is marked in dotted lines.">
+          <figcaption class="has-text-centered"><b>Figure 4</b>: Results per model across all 8 tasks, human performance is marked in dotted lines. (L): language-only inputs, (L+V): language and visual inputs. Gemini-1.5-flash does the best in Error/Comp./None detection and error detection tasks, gpt4-o performs the best on attribute identification, internVL2 on multiple attribute presence, gpt-4o and its variants does well on interaction progression(pre, post) reasoning tasks, and o1 performs well on the rationale task and gpt-4o with images and CoT performs best on the repair task. Models from similar sources show similar trends, as indicated by the shape of the radar plot, and upgraded models become ’larger’ (gpt-4o variants).</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Video Demonstration</h2>
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="video-container">
+	  <video controls width="100%"> <!-- Add 'controls' for play/pause, etc. -->
+	    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4" type="video/mp4">
+	    Your browser does not support the video tag.
+	  </video>
+	</div>
+        <figcaption class="has-text-centered"><b>Video</b>: A short video demonstrating our HSRI Dataset and Benchmark.</figcaption> <!- Optional caption -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+	<div class="container is-max-desktop content">
+	  <h2 class="title">Citation</h2>
+	  <pre><code>@misc{lee2025hsri,
+	title={Human Robot Social Interaction (HSRI) Dataset & Benchmark}, 
+	author={Dong Won Lee and Yubin Kim and Parker Malachowsky and Sooyeon Jeong and Denison Guvenoz and Louis-philippe Morency and Cynthia Breazeal and Hae Won Park},
+	year={2025},
+	eprint={},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL}
+}</code></pre>
+	</div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>. Credit to Keunhong Park for the website template. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
