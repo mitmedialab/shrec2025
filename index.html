@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Human Robot Social Interaction (HSRI) Dataset & Benchmark">
-  <meta name="keywords" content="Health-LLM, Wearable Sensors, Personal Health Coach">
+        content="Social Human Robot Embodied Conversation (SHREC) Dataset">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Human Robot Social Interaction (HSRI) Datasets & Benchmark</title>
+  <title>Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -57,7 +56,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Human Robot Social Interaction (HSRI) Dataset & Benchmark</h1>
+          <h1 class="title is-1 publication-title">Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://dongwonl.com/">Dong Won Lee</a><sup>1</sup>,</span>
@@ -142,7 +141,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          	Our work aims to advance the socially intelligent behavior of social embodied artificial intelligence (AI) agents in real-world social interactions. Recently, foundational models are being utilized as automatic evaluators of social interactions. To enable further research in this direction, we introduce a large-scale real-world Human Robot Social Interaction (HSRI) Dataset to benchmark the capabilities of Language Models (LMs) and multimodal foundational models to identify and reason about social errors and competencies in real-world human-robot interactions. Our dataset consists of 440 real-world human social robot interaction videos, and is accompanied by over 10K annotations, detailing the robot’s social errors, competencies, rationale, and corrective actions, capturing unique aspects of human-AI interaction only present in real-world interactions, with annotations on error cases where embodied physical AI agents lack human-like social behaviors such as conversational dynamics and emotion recognition, which are often overlooked and difficult to formulate as machine learning tasks without real-world data. Then, to further assess whether recent AI models can identify and reason through such real-world social interactions, we propose eight new benchmark tasks for evaluating AI model’s ability to reason about social interactions, including detecting errors and competencies, rationalizing, and inferringcorrective actions. Human studies and experiments with modern large language models (LLMs) and vision-language models (VLMs) reveal that current models struggle with these tasks.  
+		  Our work aims to advance the social reasoning of embodied artificial intelligence (AI) agents in real-world social interactions. Recently, language models (LMs) and foundational models (FMs) are being utilized as automatic evaluators of human-AI interactions with the goal of eventually being used to improve the policy of the AI agent. To enable further research in this direction, we introduce a large-scale real-world Social Human Robot Embodied Conversation (SHREC) Dataset to benchmark the capabilities of LMs and FMs to reason about social interactions, specifically with regard to robot social errors and competencies in real-world human-robot interactions. Our dataset consists of 547 real-world human social robot interaction videos and over 10K annotations, detailing the robot’s social errors, competencies, rationale, and corrective actions, capturing unique aspects of human-AI interaction only present in real-world interactions. To further assess AI models' ability to reason about social interactions, we propose eight new benchmark tasks for evaluating centered around whether AI models can (1) evaluate social interactions via detecting social errors and competencies, (2) identify the explanatory factors associated to errors and competencies, (3) understand the flow of real-world social interactions, and (4) provide reasons and corrective actions for social errors. Human studies and experiments with modern LMs and FMs reveal that current models struggle with these tasks, demonstrating that our dataset and benchmark provides a step forward towards socially intelligent AI.
 	  </p>
         </div>
       </div>
@@ -156,8 +155,8 @@
     <div class="columns is-centered">
       <div class="column is-full">
         <figure class="image">
-          <img src="./static/images/hsri_stat.png" alt="Figure 2: Overall characteristics of the SRI Dataset.">
-          <figcaption class="has-text-centered"><b>Figure 2</b>: Overall characteristics of the SRI Dataset. Our dataset contains high overlapping annotations with a high level of agreement among annotators regarding error and competency labels. The dataset includes more annotations from the verbal channel compared to the non-verbal one, with a balanced proportion of error and competency labels. Amongst various social attributes, with the majority of annotations falling under the category of conversational mechanics, followed by intention and engagement.</figcaption>
+          <img src="./static/images/hsri_stat.png" alt="Figure 2: Overall characteristics of the SHREC Dataset.">
+          <figcaption class="has-text-centered"><b>Figure 2</b>: Overall characteristics of the SHREC Dataset. Our dataset contains high overlapping annotations with a high level of agreement among annotators regarding error and competency labels. The dataset includes more annotations from the verbal channel compared to the non-verbal one, with a balanced proportion of error and competency labels. Amongst various social attributes, with the majority of annotations falling under the category of conversational mechanics, followed by intention and engagement.</figcaption>
         </figure>
       </div>
     </div>
@@ -203,7 +202,7 @@
 	    Your browser does not support the video tag.
 	  </video>
 	</div>
-        <figcaption class="has-text-centered"><b>Video</b>: A short video demonstrating our HSRI Dataset and Benchmark.</figcaption> <!- Optional caption -->
+        <figcaption class="has-text-centered"><b>Video</b>: A short video demonstrating our SHREC Dataset and Benchmark.</figcaption> <!- Optional caption -->
       </div>
     </div>
   </div>
@@ -213,13 +212,12 @@
 <section class="section" id="BibTeX">
 	<div class="container is-max-desktop content">
 	  <h2 class="title">Citation</h2>
-	  <pre><code>@misc{lee2025hsri,
-	title={Human Robot Social Interaction (HSRI) Dataset & Benchmark}, 
-	author={Dong Won Lee and Yubin Kim and Parker Malachowsky and Sooyeon Jeong and Denison Guvenoz and Louis-philippe Morency and Cynthia Breazeal and Hae Won Park},
-	year={2025},
-	eprint={},
-	archivePrefix={arXiv},
-	primaryClass={cs.CL}
+	  <pre><code>@article{lee2025human,
+  title={The Human Robot Social Interaction (HSRI) Dataset: Benchmarking Foundational Models' Social Reasoning},
+  author={Lee, Dong Won and Kim, Yubin and Guvenoz, Denison and Jeong, Sooyeon and Malachowsky, Parker and Morency, Louis-Philippe and Breazeal, Cynthia and Park, Hae Won},
+  journal={arXiv preprint arXiv:2504.13898},
+  year={2025}
+}
 }</code></pre>
 	</div>
 </section>
