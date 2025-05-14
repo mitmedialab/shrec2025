@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -38,6 +38,32 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+
+  <!-- Custom CSS for logo next to title -->
+  <style>
+    .title-container {
+        display: flex; /* Use Flexbox */
+        align-items: center; /* Vertically align items in the center */
+        justify-content: center; /* Center the items horizontally in the container */
+        flex-wrap: wrap; /* Allow items to wrap to the next line if container is too narrow */
+        margin-bottom: 20px; /* Add some space below the combined title block */
+    }
+
+    .shrec-logo {
+        height: 50px; /* Adjust height as needed */
+        margin-right: 15px; /* Add space between the logo and the title text */
+        flex-shrink: 0; /* Prevent the logo from shrinking */
+    }
+
+    /* Adjust h1 margin within the container */
+    .title-container .publication-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        /* If the title is very long, you might need to adjust width or flex-basis */
+        /* For example: flex-basis: 80%; */
+    }
+  </style>
+
 </head>
 <body>
 
@@ -56,10 +82,16 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning</h1>
+          <!-- Start of Title and Logo container -->
+          <div class="title-container">
+            <img src="./static/images/shrec_logo.png" alt="SHREC Logo" class="shrec-logo">
+            <h1 class="title is-1 publication-title">Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning</h1>
+          </div>
+          <!-- End of Title and Logo container -->
+
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://dongwonl.com/">Dong Won Lee</a><sup>1</sup>,</span>
+              <a href="https://dongwonl.com/">Dong Won Lee</a><sup>1</sup>,
             </span>
 	    <span class="author-block">
               <a href="https://ybkim95.github.io/">Yubin Kim</a><sup>1</sup>,
@@ -239,7 +271,7 @@
           <p>
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>. Credit to Keunhong Park for the website template. 
+            Commons Attribution-ShareAlike 4.0 International License</a>. Credit to Keunhong Park for the website template.
           </p>
         </div>
       </div>
